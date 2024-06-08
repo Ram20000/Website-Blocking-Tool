@@ -1,9 +1,9 @@
 # Website-Blocking-Tool
 This is a key word based website blocking tool which can be used as a chrome browser extention. 
 Functions available in this Extention:
-- Time based Blocking
-- Password Protection
-- Keyword based Blocking
+- Time-Based Blocking: Block websites during specified hours.
+- Password Protection: Secure the extension settings with a password.
+- Keyword-Based Blocking: Block websites based on specified keywords.
 
 How to run this application:
 - Download zip file.
@@ -11,4 +11,4 @@ How to run this application:
 - Turn on developer mode. (Usually present in the top right corner)
 - Click "load unpacked" and select the downloaded file.
 
-After this the extention will be available in your browser, through this you can add keywords to block websites.
+After following these steps, the extension will be available in your browser. You can then add keywords to block specific websites.

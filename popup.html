@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Keyword Blocker</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div id="passwordContainer" class="container">
+    <form id="passwordForm">
+      <input type="password" id="passwordInput" placeholder="Enter password">
+      <button type="submit" id="submitPasswordBtn">Submit</button>
+    </form>
+    <div id="passwordErrorMsg" class="error-msg"></div>
+  </div>
+
+  <div id="mainContent" class="container" style="display: none;">
+    <!-- Main content goes here -->
+    <h2>Blocked Keywords</h2>
+    <select id="blockedKeywordsList"></select>
+    <button id="removeKeywordBtn">Remove</button>
+    <br><br>
+    <input type="text" id="keywordInput" placeholder="Enter keyword">
+    <button id="addKeywordBtn">Add</button>
+    <br><br>
+    <div id="timeBlockContainer">
+      <label class="checkbox-label">
+        <input type="checkbox" id="timeBlockCheckbox">
+        Enable Time Block
+      </label>
+      <div id="timeBlockInputs">
+        <input type="time" id="startTimeInput">
+        <input type="time" id="endTimeInput">
+      </div>
+      <button id="setTimeBlockBtn">Set Time Block</button>
+    </div>
+    <br><br>
+    <div id="passwordOptions">
+      <button id="setPasswordBtn">Set Password</button>
+      <button id="disablePasswordBtn">Disable Password</button>
+    </div>
+  </div>
+</body>
+</html>
